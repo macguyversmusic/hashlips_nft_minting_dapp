@@ -66,9 +66,9 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 200px;
+  width: 594px;
   @media (min-width: 767px) {
-    width: 300px;
+    width: 594px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -102,21 +102,21 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
+    CONTRACT_ADDRESS: "0x13C6d9dd778adeB494134b11C35eBEeBbBd32f0A",
+    SCAN_LINK: "https://etherscan.io/token/0x13c6d9dd778adeb494134b11c35ebeebbbd32f0a#readContract",
     NETWORK: {
-      NAME: "",
-      SYMBOL: "",
+      NAME: "ETHEREUM",
+      SYMBOL: "ETH",
       ID: 0,
     },
-    NFT_NAME: "",
-    SYMBOL: "",
-    MAX_SUPPLY: 1,
-    WEI_COST: 0,
-    DISPLAY_COST: 0,
+    NFT_NAME: "Millionaire Rabbit",
+    SYMBOL: "ETHRAB",
+    MAX_SUPPLY: 4444,
+    WEI_COST: 10000000000000000,
+    DISPLAY_COST: 0.01,
     GAS_LIMIT: 0,
-    MARKETPLACE: "",
-    MARKETPLACE_LINK: "",
+    MARKETPLACE: "OpenSea",
+    MARKETPLACE_LINK: "https://opensea.io/collection/millionaire-rabbits",
     SHOW_BACKGROUND: false,
   });
 
@@ -201,11 +201,11 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+        <StyledLogo alt={"logo"} src={"/config/images/logo.jpeg"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/0x0c.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -373,7 +373,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"/config/images/0x1a2.png"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
