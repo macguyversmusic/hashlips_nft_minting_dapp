@@ -103,12 +103,21 @@ function App() {
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
     NETWORK: {
       NAME: "",
       SYMBOL: "",
       ID: 0,
+=======
+    CONTRACT_ADDRESS: "0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c",
+    SCAN_LINK: "https://etherscan.io/token/0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c#readContract",
+    NETWORK: {
+      NAME: "AVALANCHE",
+      SYMBOL: "AVAX",
+      ID: 43114,
+>>>>>>> Stashed changes
     },
     NFT_NAME: "",
     SYMBOL: "",
