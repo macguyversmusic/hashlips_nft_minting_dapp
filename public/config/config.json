@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
   "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
   "NETWORK": {
@@ -14,5 +15,22 @@
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+=======
+  "CONTRACT_ADDRESS": "0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c",
+  "SCAN_LINK": "https://snowtrace.io/token/0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c#readContract",
+  "NETWORK": {
+    "NAME": "AVALANCHE",
+    "SYMBOL": "AVAX",
+    "ID": 43114
+  },
+  "NFT_NAME": "Millionaire Rabbit - avax",
+ "SYMBOL": "MILRAB",
+ "MAX_SUPPLY": 8888,
+  "WEI_COST": 1700000000000000000,
+  "DISPLAY_COST": 1.7,
+  "GAS_LIMIT": 18890,
+  "MARKETPLACE": "AlphaShares Market",
+  "MARKETPLACE_LINK": "https://alphashares.io",
+>>>>>>> Stashed changes
   "SHOW_BACKGROUND": true
 }

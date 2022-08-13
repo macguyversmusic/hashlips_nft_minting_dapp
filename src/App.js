@@ -102,6 +102,7 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
+<<<<<<< Updated upstream
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
     NETWORK: {
@@ -117,6 +118,23 @@ function App() {
     GAS_LIMIT: 0,
     MARKETPLACE: "",
     MARKETPLACE_LINK: "",
+=======
+    CONTRACT_ADDRESS: "0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c",
+    SCAN_LINK: "https://etherscan.io/token/0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c#readContract",
+    NETWORK: {
+      NAME: "AVALANCHE",
+      SYMBOL: "AVAX",
+      ID: 43114,
+    },
+    NFT_NAME: "Millionaire Rabbit",
+    SYMBOL: "MILRAB",
+    MAX_SUPPLY: 8888,
+    WEI_COST: 1000000000000000000,
+    DISPLAY_COST: 1,
+    GAS_LIMIT: 0,
+    MARKETPLACE: "Alphashares Marekt",
+    MARKETPLACE_LINK: "https://opensea.io/collection/millionaire-rabbits",
+>>>>>>> Stashed changes
     SHOW_BACKGROUND: false,
   });
 
