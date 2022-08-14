@@ -1,6 +1,7 @@
 {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
   "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
   "NETWORK": {
@@ -33,6 +34,15 @@
     "ID": 43114
   },
 >>>>>>> Stashed changes
+=======
+  "CONTRACT_ADDRESS": "0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c",
+  "SCAN_LINK": "https://snowtrace.io/token/0x34FeE42698a94C7c6aa5FF674dCC26655Ee9990c#readContract",
+  "NETWORK": {
+    "NAME": "AVALANCHE",
+    "SYMBOL": "AVAX",
+    "ID": 43114
+  },
+>>>>>>> Stashed changes
   "NFT_NAME": "Millionaire Rabbit - avax",
  "SYMBOL": "MILRAB",
  "MAX_SUPPLY": 8888,
@@ -42,6 +52,9 @@
   "MARKETPLACE": "AlphaShares Market",
   "MARKETPLACE_LINK": "https://alphashares.io",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
